@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+<style>
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.nav{
+width:100%;
+background-color: #87A2FF;
+height: 40px;
+display: flex;
+justify-content:space-around;
+
+}
+
+.button{
+
+    margin:5px;
+    background-color: inherit;
+    border:none;
+    border-radius: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+.home{
+    position: relative;
+    top: 40px;;
+    width:100%;
+    height:500px;
+  
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    font-family:cursive ;
+    flex-direction: column;
+}
+
+.about{
+    position: relative;
+    width:100%;
+    height:600px;
+    background-color:#FFBDF7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:cursive;
+}
+
+.img2{
+
+}
+
+.skills{
+    position: relative;
+    background-color: #E4F1AC;
+    width:100%;
+    height:400px;
+    
+}
+
+
+
+.img{
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.hbt{
+    background-color: #87A2FF;
+    width: 100px;
+    height:40px;
+    border: none;
+   border-radius: 20px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   color:white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.img2{
+    width:300px;
+    height: 300px;
+    float: left;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+
+.about2{
+    margin: 40px;
+}
+
+
+.projects{
+    
+    position: relative;
+   
+    width:100%;
+    height:500px;
+    font-family: cursive;
+    
+}
+
+
+
+.card{
+    width:280px;
+    height:350px;
+    background-color:#BCCCDC;
+    border-radius: 15px;
+}
+
+
+
+.cardimage{
+    margin-top: 20px;
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+h4{
+    text-align: center;
+}
+
+.card_link{
+    margin-bottom: 10px;
+}
+</style>
+
+</head>
+<body>
+    
+    <div class="main">
+        
+    </div>
+
+    <nav class="nav">
+        <button class="button" > <a href="#home" >Home</a> </button>
+        <button class="button" > <a href="#about" >About</a> </button>
+        <button class="button" > <a href="#skills" >Skills</a> </button>
+        <button class="button" > <a href="#projects" >Projects</a> </button>
+        <button class="button" > <a href="#contact" >Contact</a> </button>
+    </nav>
+
+
+<section id="home"  >
+
+    <div class="home">
+   
+        
+            <h1>Hello , I'm MOHIT</h1>
+
+            <h3>A passionate web developer</h3>
+                 
+            <div class="img"></div>
+
+            <button class="hbt" ><a href="#projects">View My Work</a></button>
+
+       
+
+    </div>
+
+</section>
+
+
+
+
+
+<section  id="about" > 
+
+    <div class="about">
+
+        <div class="about1"><h1>About Me</h1></div>
+<div class="about2">
+    <img class="img2" src="https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg" >
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, assumenda sit! Assumenda aut, sit reiciendis voluptas voluptatem ea quod tenetur corrupti quam in. Explicabo sint nihil minus quos autem mollitia.</p>
+</div>
+    </div>
+</section>
+
+
+
+<section  id="skills" > 
+    <div class="skills">
+
+    </div>
+</section>
+
+
+
+
+
+<section id="projects" >
+
+<div class="projects">
+
+    <h1  class="h1" >Projects</h1>
+  
+    <div class="cards">
+
+    <div class="card">
+        <img class="cardimage"  src="https://ipma.world/app/uploads/2015/09/Dollarphotoclub_65655745-1-1.jpg" >
+        <h2>Project 1</h2>
+   <h4>A web application for task management.</h4>
+        <a class="card_link" href="google.com" >View Project</a>
+    </div>
+
+    <div class="card">
+        <img class="cardimage"  src="https://ipma.world/app/uploads/2015/09/Dollarphotoclub_65655745-1-1.jpg" >
+        <h2>Project 1</h2>
+   <h4>A web application for task management.</h4>
+        <a class="card_link" href="google.com" >View Project</a>
+    </div>
+
+
+    <div class="card">
+        <img class="cardimage"  src="https://ipma.world/app/uploads/2015/09/Dollarphotoclub_65655745-1-1.jpg" >
+        <h2>Project 1</h2>
+   <h4>A web application for task management.</h4>
+        <a class="card_link" href="google.com" >View Project</a>
+    </div>
+
+    <div class="card">
+        <img class="cardimage"  src="https://ipma.world/app/uploads/2015/09/Dollarphotoclub_65655745-1-1.jpg" >
+        <h2>Project 1</h2>
+   <h4>A web application for task management.</h4>
+        <a class="card_link" href="google.com" >View Project</a>
+    </div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+  
+
+</section>
+
+
+
+<section id="contact"></section>
+
+
+<section id="footer" ></section>
+
+</body>
+</html>
